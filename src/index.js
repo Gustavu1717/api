@@ -9,7 +9,7 @@ let server = express();
 server.use(cors());
 server.use(express.json());
 
-server.listen(process.env.PORT, () => console.log(`API onlina na porta ${process.env.PORT}`));
-
 server.use(senhaController);
 server.use(emailController);
+
+server.listen(process.env.PORT, () => console.log(`API onlina na porta ${process.env.PORT}`));

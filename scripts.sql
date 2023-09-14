@@ -6,8 +6,6 @@ create table tb_senha(
 	id_senha 	int primary key auto_increment,
     ds_email	varchar(200),
     ds_senha 	varchar(400) not null
-
 );
 
-drop table tb_senha;
 select * from tb_senha;
